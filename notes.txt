@@ -1,7 +1,7 @@
 FSAD Skill Development
-Experiment 1
 
-Git Basics Practice
+Experiment 1
+Learning Git Basics
 Creating repository
 Adding files
 Commit and push to GitHub
