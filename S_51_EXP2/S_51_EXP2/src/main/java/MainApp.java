@@ -3,7 +3,8 @@ import org.hibernate.cfg.Configuration;
 
 public class MainApp {
 
-    public static void main(String[] args) {
+    @SuppressWarnings("deprecation")
+	public static void main(String[] args) {
 
         SessionFactory factory =
                 new Configuration().configure().buildSessionFactory();
@@ -14,7 +15,6 @@ public class MainApp {
         Product p1 = new Product("Laptop","Dell Laptop",50000,10);
         Product p2 = new Product("Phone","Samsung Phone",20000,15);
 
-        session.save(p1);
         session.save(p2);
 
         Product product = session.get(Product.class,1);

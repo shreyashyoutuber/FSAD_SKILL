@@ -18,10 +18,10 @@ jdbc:h2:mem:testdb
 </property>
 
 <property name="hibernate.connection.username">
-sa
+root
 </property>
 
-<property name="hibernate.connection.password">
+<property name="hibernate.connection.password">root
 </property>
 
 <!-- Hibernate dialect -->
