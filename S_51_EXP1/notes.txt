@@ -1,3 +1,8 @@
 FSAD Skill Development
-Experiment 1
-Git basics practice
+Experiment 1 - Git Basics
+
+1. Created repository
+2. Added files
+3. Committed files
+4. Created branches
+5. Merged branches
